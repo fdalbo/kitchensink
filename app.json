@@ -108,15 +108,17 @@
      *          "bootstrap": false   // OPTIONAL
      *      }
      */
-    "js": [
-    	{
+    "js": [{
             "path": "lib/prettify/prettify.js",
             "includeInBundle": true
-    	},
-        {
+    	}, {
             "path": "app.js",
             "bundle": true
-        }
+        }, {
+           // default settings
+           "path" : "lib/sencha/inspector.js",
+            "includeInBundle": true
+    	}
     ],
 
     /**
@@ -149,12 +151,12 @@
             "path": "lib/prettify/prettify.css"
         },
         {
-            "path": "${build.out.css.dir}/KitchenSink-all.css",
+            "path": "./ext/build/examples/kitchensink/triton-en/resources/KitchenSink-all.css",
             "bundle": true,
             "exclude": ["fashion"]
         },
         {
-            "path": "../resources/Sencha-Examples/style.css",
+            "path": "./ext/build/examples/resources/Sencha-Examples/style.css",
             "remote": true
         }
     ],
@@ -331,7 +333,7 @@
      *
      */
     "output": {
-        "base": "${ext.dir}/build/examples/kitchensink",
+        "base": "./ext/build/examples/kitchensink",
         "page": "index.html",
         "manifest": "${build.id}.json",
         "js": {
@@ -377,7 +379,7 @@
     "classic": {
         "js": [
             {
-                "path": "../classic/shared/examples.js",
+                "path": "./ext/build/examples/classic/shared/examples.js",
                 "includeInBundle": true
             }
         ],

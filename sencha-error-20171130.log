@@ -1,0 +1,610 @@
+Sencha Cmd 6.5.2.15 - Crash report
+================================================
+An error occurred while executing the following command: app build -production
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : /Users/frederic/AgiliumDevs/Sandbox/kitchensink   
+                  app.bootstrap.manifest : ${build.id}.json                                  
+                   app.builds.aria.theme : theme-aria                                        
+                 app.builds.aria.toolkit : classic                                           
+                app.builds.classic.theme : theme-classic                                     
+              app.builds.classic.toolkit : classic                                           
+            app.builds.crisp-touch.theme : theme-crisp-touch                                 
+          app.builds.crisp-touch.toolkit : classic                                           
+                  app.builds.crisp.theme : theme-crisp                                       
+                app.builds.crisp.toolkit : classic                                           
+                   app.builds.gray.theme : theme-gray                                        
+                 app.builds.gray.toolkit : classic                                           
+                    app.builds.ios.theme : theme-ios                                         
+                  app.builds.ios.toolkit : modern                                            
+          app.builds.material.css.0.path : lib/prettify/prettify-dark.css                    
+          app.builds.material.css.length : 1                                                 
+app.builds.material.material.toolbar.color : #1976d2                                           
+app.builds.material.material.toolbar.dynamic : true                                              
+               app.builds.material.theme : theme-material                                    
+             app.builds.material.toolkit : modern                                            
+         app.builds.modern-neptune.theme : theme-neptune                                     
+       app.builds.modern-neptune.toolkit : modern                                            
+          app.builds.modern-triton.theme : theme-triton                                      
+        app.builds.modern-triton.toolkit : modern                                            
+          app.builds.neptune-touch.theme : theme-neptune-touch                               
+        app.builds.neptune-touch.toolkit : classic                                           
+                app.builds.neptune.theme : theme-neptune                                     
+              app.builds.neptune.toolkit : classic                                           
+                 app.builds.triton.theme : theme-triton                                      
+               app.builds.triton.toolkit : classic                                           
+                        app.cache.deltas : deltas                                            
+                        app.cache.enable : false                                             
+        app.classic.js.0.includeInBundle : true                                              
+                   app.classic.js.0.path : ./ext/build/examples/classic/shared/examples.js   
+                   app.classic.js.length : 1                                                 
+                     app.classic.locales : en,he                                             
+                   app.classic.locales.0 : en                                                
+                   app.classic.locales.1 : he                                                
+              app.classic.locales.length : 2                                                 
+                    app.classic.requires : locale,font-ext                                   
+                  app.classic.requires.0 : locale                                            
+                  app.classic.requires.1 : font-ext                                          
+             app.classic.requires.length : 2                                                 
+                           app.classpath : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/app,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/ux,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/samples,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/src,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/samples
+                         app.classpath.0 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/app
+                         app.classpath.1 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/ux
+                         app.classpath.2 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/samples
+                         app.classpath.3 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/src
+                         app.classpath.4 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/samples
+                    app.classpath.length : 5                                                 
+                          app.compressor : null                                              
+                          app.config.dir : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app
+                app.cordova.cache.enable : false                                             
+                   app.cordova.config.id : com.domain.KitchenSink                            
+                 app.cordova.config.name : KitchenSink                                       
+                 app.cordova.config.path : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/cordova
+               app.cordova.config.target :                                                   
+              app.cordova.config.verbose : false                                             
+                   app.cordova.js.0.path : cordova.js                                        
+               app.cordova.js.0.priority : 1000                                              
+                 app.cordova.js.0.remote : true                                              
+                   app.cordova.js.length : 1                                                 
+                 app.cordova.microloader : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/Microloader.js
+      app.cordova.output.appCache.enable : false                                             
+                 app.cordova.output.base : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/cordova/www
+             app.cordova.output.manifest : ${build.id}.json                                  
+                 app.cordova.output.page : index.html                                        
+  app.development.fashion.inliner.enable : false                                             
+                                 app.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink   
+              app.fashion.inliner.enable : false                                             
+                           app.framework : ext                                               
+                                  app.id : 7f0d3b50-5cb1-47e0-97b7-ffe69d12d49e              
+                       app.indexHtmlPath : index.html                                        
+                  app.mashup.map.options : ?v=3&sensor=false                                 
+                      app.modern.locales : en                                                
+                    app.modern.locales.0 : en                                                
+               app.modern.locales.length : 1                                                 
+                     app.modern.requires : package-loader                                    
+                   app.modern.requires.0 : package-loader                                    
+              app.modern.requires.length : 1                                                 
+                       app.modern.slicer : null                                              
+                         app.modern.uses : kitchensink-google                                
+                       app.modern.uses.0 : kitchensink-google                                
+                  app.modern.uses.length : 1                                                 
+                                app.name : KitchenSink                                       
+              app.output.appCache.enable : false                                             
+                         app.output.base : ./ext/build/examples/kitchensink                  
+                app.output.deltas.enable : false                                             
+                    app.output.framework : ${build.id}/framework.js                          
+                      app.output.js.path : ${build.id}/app.js                                
+                   app.output.js.version : ES6                                               
+                     app.output.manifest : ${build.id}.json                                  
+           app.output.microloader.enable : true                                              
+                         app.output.page : index.html                                        
+               app.output.resources.base : .                                                 
+             app.output.resources.images : ./${build.id}/resources/images                    
+               app.output.resources.path : ./${build.id}/resources                           
+             app.output.resources.shared : ./resources                                       
+            app.output.resources.toolkit : ${toolkit.name}/resources                         
+                           app.overrides : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/overrides,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/locale/${app.locale},/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/overrides,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/locale/${app.locale}
+                         app.overrides.0 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/overrides
+                         app.overrides.1 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/locale/${app.locale}
+                         app.overrides.2 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/overrides
+                         app.overrides.3 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/locale/${app.locale}
+                    app.overrides.length : 4                                                 
+                        app.packages.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/packages
+               app.phonegap.cache.enable : false                                             
+                  app.phonegap.config.id : com.domain.KitchenSink                            
+                app.phonegap.config.name : KitchenSink                                       
+                app.phonegap.config.path : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/phonegap
+              app.phonegap.config.remote : false                                             
+             app.phonegap.config.verbose : false                                             
+                  app.phonegap.js.0.path : cordova.js                                        
+              app.phonegap.js.0.priority : 1000                                              
+                app.phonegap.js.0.remote : true                                              
+                  app.phonegap.js.length : 1                                                 
+                app.phonegap.microloader : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/Microloader.js
+     app.phonegap.output.appCache.enable : false                                             
+                app.phonegap.output.base : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/phonegap/www
+            app.phonegap.output.manifest : ${build.id}.json                                  
+                app.phonegap.output.page : index.html                                        
+             app.production.cache.enable : false                                             
+          app.production.compressor.type : cmd                                               
+     app.production.compressor.wrapLines : 100                                               
+   app.production.output.appCache.enable : false                                             
+                        app.sass.dynamic : true                                              
+                            app.sass.etc : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/etc/all.scss,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/etc/all.scss
+                          app.sass.etc.0 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/etc/all.scss
+                          app.sass.etc.1 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/etc/all.scss
+                     app.sass.etc.length : 2                                                 
+                        app.sass.fashion : true                                              
+                      app.sass.namespace : KitchenSink                                       
+                            app.sass.src : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/src,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/src,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${theme.name}/sass/src
+                          app.sass.src.0 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/src
+                          app.sass.src.1 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/src
+                          app.sass.src.2 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${theme.name}/sass/src
+                     app.sass.src.length : 3                                                 
+                            app.sass.var : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/var,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/var,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/${theme.name}/sass/var
+                          app.sass.var.0 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/var
+                          app.sass.var.1 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${toolkit.name}/sass/var
+                          app.sass.var.2 : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/${theme.name}/sass/var
+                     app.sass.var.length : 3                                                 
+                 app.slicer.cache.enable : false                                             
+        app.slicer.js.0.isWidgetManifest : true                                              
+                    app.slicer.js.0.path : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/sass/example/custom.js
+                    app.slicer.js.length : 1                                                 
+       app.slicer.output.appCache.enable : false                                             
+                                 app.url : null                                              
+                    buildenvironment.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink   
+               buildenvironment.load.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink   
+                          cmd.config.dir : /Users/frederic/bin/Sencha/Cmd/6.5.2.15           
+                                 cmd.dir : /Users/frederic/bin/Sencha/Cmd/6.5.2.15           
+                    cmd.framework.minver : 5.5.0                                             
+                   cmd.framework.version : 99.99                                             
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : osx                                               
+                     cmd.unicode.escapes : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/unicode-escapes.json
+                             cmd.version : 6.5.2.15                                          
+                            cmd.web.port : 1841                                              
+                     config.skipDownload : true                                              
+                      config.skipInherit : false                                             
+                        ext.license.name : trial                                             
+                     framework.build.dir : ${package.output.base}                            
+                     framework.classpath : ${package.dir}/src                                
+                    framework.cmd.minver : 6.5.2.15                                          
+                   framework.cmd.version : 6.5.2.15                                          
+                 framework.compatVersion : 6.5.0                                             
+                    framework.config.dir : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/plugins/ext/current
+                       framework.creator : Sencha                                            
+           framework.detailedDescription : Sencha Ext JS JavaScript Framework                
+                           framework.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/ext
+                  framework.example.apps : admin-dashboard,executive-dashboard,feed-viewer,kitchensink,calendar,classic/desktop,classic/ticket-app,classic/portal,classic/simple-tasks,classic/responsive-app,classic/aria,modern/addressbook,modern/blackberry,modern/energy,modern/stockapp,modern/states,modern/geocongress,modern/oreilly
+                framework.example.apps.0 : admin-dashboard                                   
+                framework.example.apps.1 : executive-dashboard                               
+               framework.example.apps.10 : classic/aria                                      
+               framework.example.apps.11 : modern/addressbook                                
+               framework.example.apps.12 : modern/blackberry                                 
+               framework.example.apps.13 : modern/energy                                     
+               framework.example.apps.14 : modern/stockapp                                   
+               framework.example.apps.15 : modern/states                                     
+               framework.example.apps.16 : modern/geocongress                                
+               framework.example.apps.17 : modern/oreilly                                    
+                framework.example.apps.2 : feed-viewer                                       
+                framework.example.apps.3 : kitchensink                                       
+                framework.example.apps.4 : calendar                                          
+                framework.example.apps.5 : classic/desktop                                   
+                framework.example.apps.6 : classic/ticket-app                                
+                framework.example.apps.7 : classic/portal                                    
+                framework.example.apps.8 : classic/simple-tasks                              
+                framework.example.apps.9 : classic/responsive-app                            
+           framework.example.apps.length : 18                                                
+                  framework.example.path : examples,templates                                
+                framework.example.path.0 : examples                                          
+                framework.example.path.1 : templates                                         
+           framework.example.path.length : 2                                                 
+                        framework.format : 1                                                 
+                          framework.isV5 : true                                              
+                          framework.isV6 : true                                              
+                         framework.isV62 : true                                              
+                         framework.isV65 : true                                              
+     framework.language.js.input.version : ES5                                               
+                          framework.name : ext                                               
+                     framework.namespace : Ext                                               
+                        framework.output : ${package.dir}/build                              
+                     framework.overrides : ${package.dir}/overrides                          
+                  framework.packages.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/ext/packages/,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/ext/${toolkit.name}
+                framework.resource.paths : resources                                         
+              framework.resource.paths.0 : resources                                         
+         framework.resource.paths.length : 1                                                 
+                      framework.sass.etc : ${package.dir}/sass/etc/all.scss                  
+                  framework.sass.fashion : true                                              
+                framework.sass.namespace : Ext                                               
+                      framework.sass.src : ${package.dir}/sass/src                           
+                      framework.sass.var : ${package.dir}/sass/var                           
+        framework.signatures.0.algorithm : SHA1withRSA                                       
+          framework.signatures.0.created : 2017-09-20T22:35:52Z                              
+             framework.signatures.0.name : Sencha                                            
+            framework.signatures.0.nonce : FkpOyMZ15Zo=                                      
+        framework.signatures.0.signature : l98RzmVHmAzyFxK6AKB8glml10XR7rntMG1iEGrWNbILxZGa5Sk5ulCKMkojpQStLcIKqgSd1U4fuqixerouorACM0HsU5vdcCOBMkGF8ypCCu+AjHoh/SxWj9RIU/PVY7zF8wTeqwD58aiuCvMelmzIF6eCgPwkilQwxH9KcKVuzpIJCL5ajsuQXkpdtluJyZr8xDnYws20X1DEHZSUZXOvigkA1Yc1hqiS9qr5ccm4rOd48xXzWp0LZmY5ltYzzJXrNU+qVe2NDKMkl/XvKnDI9qIjlag9iScFlQG9YgnGdfLRu2pXU844VMR/QmoY9ZU6wjOZ1XhPaf4Kzv0Oqw==
+             framework.signatures.0.uuid : 1d6b0d9c-3333-4e65-885f-5b07a1fc3198              
+             framework.signatures.length : 1                                                 
+                   framework.subpkgs.dir : ${package.dir}                                    
+              framework.subpkgs.packages : classic/classic,modern/modern,packages/charts,packages/amf,packages/soap,packages/ux,packages/google,packages/legacy,packages/font-awesome,packages/font-pictos,packages/font-ext
+            framework.subpkgs.packages.0 : classic/classic                                   
+            framework.subpkgs.packages.1 : modern/modern                                     
+           framework.subpkgs.packages.10 : packages/font-ext                                 
+            framework.subpkgs.packages.2 : packages/charts                                   
+            framework.subpkgs.packages.3 : packages/amf                                      
+            framework.subpkgs.packages.4 : packages/soap                                     
+            framework.subpkgs.packages.5 : packages/ux                                       
+            framework.subpkgs.packages.6 : packages/google                                   
+            framework.subpkgs.packages.7 : packages/legacy                                   
+            framework.subpkgs.packages.8 : packages/font-awesome                             
+            framework.subpkgs.packages.9 : packages/font-pictos                              
+       framework.subpkgs.packages.length : 11                                                
+                       framework.summary : Ext JS                                            
+                          framework.type : framework                                         
+                       framework.version : 6.5.2.463                                         
+                       inspector.address : http://localhost:1839/                            
+                            minimal.mode : true                                              
+                    package.sass.dynamic : true                                              
+                          repo.local.dir : /Users/frederic/bin/Sencha/Cmd/repo               
+                         sencha.sdk.path : /Users/frederic/AgiliumDevs/_sencha-sdks          
+                       shared.sencha.dir : true                                              
+        system.java.net.useSystemProxies : true                                              
+                     workspace.build.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/build
+                    workspace.config.dir : /Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/workspace
+                           workspace.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink   
+           workspace.frameworks.ext.path : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/ext
+        workspace.frameworks.ext.version : 6.5.2.463                                         
+                  workspace.packages.dir : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/packages/local,/Users/frederic/AgiliumDevs/Sandbox/kitchensink/packages
+              workspace.packages.extract : /Users/frederic/AgiliumDevs/Sandbox/kitchensink/packages/remote
+
+Exception information:
+=======================
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/plugin.xml:333: The following error occurred while executing this line:
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/build-impl.xml:387: The following error occurred while executing this line:
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/init-impl.xml:436: com.sencha.exceptions.BasicException: GC overhead limit exceeded
+     at com.sencha.ant.AntScript.execute(AntScript.java:121)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:289)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: The following error occurred while executing this line:
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/build-impl.xml:387: The following error occurred while executing this line:
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/init-impl.xml:436: com.sencha.exceptions.BasicException: GC overhead limit exceeded
+     at org.apache.tools.ant.ProjectHelper.addLocationToBuildException(ProjectHelper.java:551)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:444)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:68)
+     at net.sf.antcontrib.logic.IfTask.execute(IfTask.java:217)
+     at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.TaskAdapter.execute(TaskAdapter.java:154)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+     at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at com.sencha.ant.AntScript.execute(AntScript.java:117)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:289)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: The following error occurred while executing this line:
+/Users/frederic/bin/Sencha/Cmd/6.5.2.15/ant/build/app/init-impl.xml:436: com.sencha.exceptions.BasicException: GC overhead limit exceeded
+     at org.apache.tools.ant.ProjectHelper.addLocationToBuildException(ProjectHelper.java:551)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:444)
+     at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
+     at com.sencha.ant.CallTask.execute(CallTask.java:137)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:68)
+     at net.sf.antcontrib.logic.IfTask.execute(IfTask.java:217)
+     at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.TaskAdapter.execute(TaskAdapter.java:154)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+     at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at com.sencha.ant.AntScript.execute(AntScript.java:117)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:289)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: com.sencha.exceptions.BasicException: GC overhead limit exceeded
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:116)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+     at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
+     at com.sencha.ant.CallTask.execute(CallTask.java:137)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:68)
+     at net.sf.antcontrib.logic.IfTask.execute(IfTask.java:217)
+     at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.TaskAdapter.execute(TaskAdapter.java:154)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+     at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at com.sencha.ant.AntScript.execute(AntScript.java:117)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:289)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: GC overhead limit exceeded
+     at com.sencha.exceptions.BasicException.wrap(BasicException.java:54)
+     at com.sencha.exceptions.BasicException.stealthify(BasicException.java:43)
+     at com.sencha.exceptions.BasicException.raise(BasicException.java:35)
+     at com.sencha.cli.Command.dispatch(Command.java:62)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.compile.CompileCommands.dispatch(CompileCommands.java:332)
+     at com.sencha.cli.AbstractCommand.dispatch(AbstractCommand.java:124)
+     at com.sencha.ant.CompileTask$CompileToken.initialize(CompileTask.java:156)
+     at com.sencha.ant.CompileTask$CompileToken.dispatchCommand(CompileTask.java:163)
+     at com.sencha.ant.CompileTask.doExecute(CompileTask.java:123)
+     at com.sencha.ant.BaseAntTask.execute(BaseAntTask.java:34)
+     at com.sencha.ant.CompileTask.execute(CompileTask.java:36)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+     at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
+     at com.sencha.ant.CallTask.execute(CallTask.java:137)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:442)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.taskdefs.Sequential.execute(Sequential.java:68)
+     at net.sf.antcontrib.logic.IfTask.execute(IfTask.java:217)
+     at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.TaskAdapter.execute(TaskAdapter.java:154)
+     at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+     at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     at org.apache.tools.ant.Task.perform(Task.java:348)
+     at org.apache.tools.ant.Target.execute(Target.java:392)
+     at org.apache.tools.ant.Target.performTasks(Target.java:413)
+     at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+     at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+     at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at com.sencha.ant.AntScript.execute(AntScript.java:117)
+     at com.sencha.command.plugin.PluginManager.execute(PluginManager.java:104)
+     at com.sencha.command.plugin.PluginManager.executeReverseFirst(PluginManager.java:145)
+     at com.sencha.command.environment.BuildEnvironment.execute(BuildEnvironment.java:308)
+     at com.sencha.command.environment.AppOrPackageEnvironment.execute(AppOrPackageEnvironment.java:729)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.doExecute(BasePluginCommands.java:125)
+     at com.sencha.command.app.AppCommands$BuildCommand.execute(AppCommands.java:470)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:289)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: GC overhead limit exceeded
+     at com.sencha.tools.compiler.sources.InstanceConfig.mapConfigProperties(InstanceConfig.java:82)
+     at com.sencha.tools.compiler.sources.InstanceConfig.<init>(InstanceConfig.java:47)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfigForClass(InstanceConfigReferenceProcessor.java:222)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfigForClass(InstanceConfigReferenceProcessor.java:176)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.access$300(InstanceConfigReferenceProcessor.java:25)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor$2.process(InstanceConfigReferenceProcessor.java:378)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor$2.process(InstanceConfigReferenceProcessor.java:347)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processAutoDependency(InstanceConfigReferenceProcessor.java:406)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processAutoDependencies(InstanceConfigReferenceProcessor.java:249)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfigForClass(InstanceConfigReferenceProcessor.java:226)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfigForClass(InstanceConfigReferenceProcessor.java:176)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.access$300(InstanceConfigReferenceProcessor.java:25)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor$2.process(InstanceConfigReferenceProcessor.java:378)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor$2.process(InstanceConfigReferenceProcessor.java:347)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processAutoDependency(InstanceConfigReferenceProcessor.java:406)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processAutoDependencies(InstanceConfigReferenceProcessor.java:249)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfigForClass(InstanceConfigReferenceProcessor.java:226)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfig(InstanceConfigReferenceProcessor.java:160)
+     at com.sencha.tools.compiler.sources.InstanceConfigReferenceProcessor.processInstanceConfig(InstanceConfigReferenceProcessor.java:140)
+     at com.sencha.tools.compiler.sources.ReferenceVisitor.processObjectAutoDependencies(ReferenceVisitor.java:400)
+     at com.sencha.tools.compiler.sources.ReferenceVisitor.processDefineObject(ReferenceVisitor.java:37)
+     at com.sencha.tools.compiler.sources.ReferenceVisitor.processDefineObject(ReferenceVisitor.java:19)
+     at com.sencha.tools.compiler.sources.BaseDefineVisitor.processExtDefine(BaseDefineVisitor.java:69)
+     at com.sencha.tools.compiler.sources.BaseDefineVisitor.onFunctionCall(BaseDefineVisitor.java:134)
+     at com.sencha.tools.compiler.sources.ReferenceVisitor.onFunctionCall(ReferenceVisitor.java:61)
+     at com.sencha.tools.compiler.ast.js.FunctionCall.doVisit(FunctionCall.java:16)
+     at com.sencha.tools.compiler.ast.js.BaseNodeVisitor.visit(BaseNodeVisitor.java:21)
+     at com.sencha.tools.compiler.ast.js.CommentNodevisitor.visit(CommentNodevisitor.java:24)
+     at com.sencha.tools.compiler.ast.js.ExpressionStatement.descend(ExpressionStatement.java:25)
+     at com.sencha.tools.compiler.ast.js.BaseNodeVisitor.onExpressionStatement(BaseNodeVisitor.java:106)
+     at com.sencha.tools.compiler.ast.js.ExpressionStatement.doVisit(ExpressionStatement.java:20)
+     at com.sencha.tools.compiler.ast.js.BaseNodeVisitor.visit(BaseNodeVisitor.java:21)
+
